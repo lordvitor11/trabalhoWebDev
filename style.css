@@ -1,8 +1,6 @@
 .menu-bar {
     padding: 3px;
-    /*background-color: #FF4D6D;*/
     background-color: #212529;
-    /* border-radius: 10px; */
 }
 
 .copy-bar {
@@ -72,14 +70,12 @@ body {
 
 input {
     border: none;
-    /*background-color: #FF4D6D;*/
     background-color: #212529;
     margin-left: 15px;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
     color: #F8F9FA;
-    /* color: #590D22; */
 }
 
 a {
@@ -98,7 +94,6 @@ h1 {
 }
 
 input:hover {
-    /* background-color: #FFC8DD; */
     color: #FF4D6D;
     background-color: #343A40;
 }
