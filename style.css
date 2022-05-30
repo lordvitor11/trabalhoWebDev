@@ -15,6 +15,16 @@
     color: #FF4D6D;
 }
 
+.button {
+    border: none;
+    background-color: #212529;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #F8F9FA;
+}
+
 .line {
     display: flex;
     flex-flow: row wrap;
@@ -73,6 +83,16 @@
     border-bottom-right-radius: 10px;
 }
 
+.signup-container {
+    margin-left: 45%; 
+    text-align: left; 
+    width: 15%;
+}
+
+.signup-container label {
+    margin-left: 0px;
+}
+
 body {
     color: #F8F9FA;
     margin: 0;
@@ -84,11 +104,15 @@ body {
 input {
     border: none;
     background-color: #212529;
-    margin-left: 15px;
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    color: #F8F9FA;
+    color: whitesmoke;
+}
+
+label {
+    color: black;
+    margin-left: 25px;
 }
 
 a {
@@ -106,7 +130,7 @@ h1 {
     color: #C9184A;
 }
 
-input:hover {
+.button:hover {
     color: #FF4D6D;
     background-color: #343A40;
 }

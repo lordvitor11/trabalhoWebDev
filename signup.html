@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/136673/isolated/lists/fcebaeabc4c34d8cb742fe693ba35611-icone-de-flor-vermelha.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .textfield {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="index.html"><input class="button" type="button" value="Menu principal"></a>
+        <a href="pag1.html"><input class="button" type="button" value="Flores"></a>
+        <a href="pag2.html"><input class="button" type="button" value="Contato"></a>
+        <a style="float: right;" href="login.html"><input class="button" type="button" value="Entre"></a>
+    </div>
+
+    <div class="signup-container">
+        <br> <br>
+        <h1>Informações básicas</h1>
+
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input class="textfield" type="text" name="nome" required> <br> <br>
+
+            <label for="nascimento">Data de nascimento:</label> 
+            <input class="textfield" type="date" name="nascimento" required> <br> <br>
+
+            <label for="text">CPF:</label>
+            <input class="textfield" type="text" name="cpf" placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" required> <br> <br>
+
+            <label for="email">E-mail:</label>
+            <input class="textfield" type="email" name="email" required> <br> <br>
+
+            <label for="tel">Telefone:</label>
+            <input class="textfield" type="text" name="tel" placeholder="(00) 0 0000-0000" required> <br> <br> <br>
+
+            <a href="signup2.html"><input class="button" style="width: 220px ;margin-left: 0px;" type="button" value="Enviar"></a>
+        </form>
+    </div>
+</body>
+</html>
