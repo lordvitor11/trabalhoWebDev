@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar</title>
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/136673/isolated/lists/fcebaeabc4c34d8cb742fe693ba35611-icone-de-flor-vermelha.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .textfield {
+            width: 200px;
+        }
+
+        label {
+            margin-left: 0%;
+        }
+
+        .line {
+            margin-top: 10%;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="menu-bar">
+        <a href="index.html"><input class="button" type="button" value="Menu principal"></a>
+        <a href="pag1.html"><input class="button" type="button" value="Flores"></a>
+        <a href="pag2.html"><input class="button" type="button" value="Contato"></a>
+        <a style="float: right;" href="signup.html"><input class="button" type="button" value="Cadastre-se"></a>
+    </div>
+
+    <div class="line">
+        <div class="login-container">
+            <form action="index.html">
+                <label for="user">Usuário ou e-mail:</label> <br>
+                <input class="textfield" type="text" name="user" required> <br> <br>
+
+                <label for="passwd">Senha:</label> <br>
+                <input class="textfield" type="password" name="passwd" required> <br> <br> 
+
+                <input style="margin-left: 0;" class="button" type="submit" value="Confirmar">
+            </form> <br>
+
+            <small style="color: blue;">Não possui conta? <a style="color: blue; text-decoration: underline;" href="signup.html">Clique aqui para criar uma.</a></small> <br>
+
+            <small style="color: blue;" ><a style="color: blue; text-decoration: underline;" href="">Esqueci minha senha.</a></small> <br> <br> <br>
+
+        </div>
+    </div>
+</body>
+</html>
